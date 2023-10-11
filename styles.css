@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
+}
+
+input {
+  width: 30vw;
+  height: 6vh;
+  border-radius: 2vh;
+  border: 1px solid black;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p,
+.loworhigh,
+.startOver p {
+  text-align: center;
+}
