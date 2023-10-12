@@ -22,7 +22,7 @@ if (playGame) {
     validateGuess(guess);
     userInput.value = '';
     prevGuess.innerHTML += `${guess}, `;
-    document.querySelector('.remainingChance').innerHTML = `${11 - numGuess}`
+    document.querySelector('.remainingChance').innerHTML = `${10 - numGuess}`
     numGuess++;
   });
 }
