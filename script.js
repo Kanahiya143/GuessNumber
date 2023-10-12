@@ -49,7 +49,6 @@ function checkGuess(guess) {
   if (guess === randomNumber) {
     displayMessage('Congratulation!, You guessed it right.');
     endGame();
-    newGame();
   } else if (guess > randomNumber) {
     displayMessage('Number is too low');
   } else if (guess < randomNumber) {
